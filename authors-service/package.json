@@ -1,0 +1,17 @@
+{
+    "name": "authors-service",
+    "version": "1.0.0",
+    "description": "Service for managing authors",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "nodemon src/app.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "body-parser": "^1.19.0",
+      "axios": "^0.21.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.12"
+    }
+  }
